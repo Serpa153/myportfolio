@@ -4,9 +4,58 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <!--Boxicons CSS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>My portfolio</title>
   </head>
   <body>
+    <header class="header">
+      <a href="#home" class="logo">Vanessa <span>Serpa</span></a>
+
+      <i class="bx bx-menu"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="./src/assets/Van.jpg" alt="Profile photo" />
+      </div>
+
+      <div class="home-content">
+        <h1>It's <span>Vanessa</span></h1>
+        <h3 class="text-animation">I'm a<span></span></h3>
+
+        <p>
+          Junior Front-End Developer aspiring to transition into Full-Stack
+          development. My current focus is on enhancing my skills in building
+          dynamic, responsive websites with clean code. I am enthusiastic about
+          continuing my learning journey in this dynamic field to further
+          develop my technical expertise. I I have experience living in Japan
+          for 5 years, especially during my time at McDonald's, gaining valuable
+          insights into teamwork and problem solving
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+
+        <a href="#" class="btn">Hire Me</a>
+      </div>
+    </section>
+
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
