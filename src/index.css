@@ -124,8 +124,6 @@ span {
   width: 20vw;
   border-radius: 10%;
   box-shadow: 0 0 9px var(--main-color);
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
 }
 
 .home-content p {
@@ -172,4 +170,19 @@ span {
 .btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 9px var(--main-color);
+}
+
+.second-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.second-text span {
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  font-size: 8rem;
 }
